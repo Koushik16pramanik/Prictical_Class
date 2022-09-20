@@ -19,12 +19,4 @@ public class Userdefined {
 				System.out.println(num+" is even");
 			else
 				System.out.println(num+" is odd");
-		
-		
-		
-	
-		// TODO Auto-generated method stub
-		
-	}
-
-}
+	}}
