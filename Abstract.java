@@ -1,17 +1,18 @@
-package Activity;
+package Oerateor;
 
 public abstract class Abstract {//parent class
-	abstract void method(); // abstract method
+abstract void method();// abstract method
+}
+class Test extends Abstract{//child class 
+	void method() // non abstract method
+	{
+		System.out.println(" method running successfully");
+	}}
+class NewTest extends Abstract{//child class 2
+	void method() {
+		System.out.println(" new test method running successfully");
 	}
-	class Tets extends Abstract{ //child class
-		void method() { // non abstract method
-			System.out.println("method running sucessfully");
-		}}
-		class Newtest extends Abstract{
-			void method() {
-				System.out.println("new test method running sucessfully");
-			}
-		public static void main(String args[]) {
-		Abstract abs=new Newtest();
-			abs.method();
-}}
+	public static void main(String[] args) {
+		Abstract abs=new NewTest();
+		abs.method();
+	}}
