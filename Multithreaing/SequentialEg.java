@@ -5,11 +5,11 @@ public class SequentialEg {
 		for(int i= 5; i<=11; i++) {
 			try {
 		Thread.sleep(200);  // The thread sleep/ stop working for a specific amount of time.
-			}
-			catch(InterruptedException e) {
-				System.out.println(e);
-			}
-			System.out.println(i);
+		}
+		catch(InterruptedException e) {
+			System.out.println(e);
+		}
+		System.out.println(i);
 		}}
 	public static void main(String args[]) {
 		SequentialEg t1= new SequentialEg();
