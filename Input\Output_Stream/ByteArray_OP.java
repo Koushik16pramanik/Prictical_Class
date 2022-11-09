@@ -1,6 +1,6 @@
 package IO;
 import java.io.*;
-
+// Byte Array Output Stream
 public class ByteArray_OP {
 	public static void main(String[] args) {
 		try {
