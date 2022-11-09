@@ -1,7 +1,7 @@
 package IO;
 import java.io.FileOutputStream;
 
-//write byte & String using FOS
+//write byte & String using File Output Stream
 public class WriteByteFOS {
 	public static void main(String[] args) {
 		try {
