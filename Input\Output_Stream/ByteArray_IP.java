@@ -1,6 +1,6 @@
 package IO;
 import java.io.*;
-
+// Byte Array Input Stream
 public class ByteArray_IP {
 	public static void main(String[] args) {
 	byte[]array = {66,67,68,69,70};
